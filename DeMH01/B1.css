@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.nav-bar{
+    background-color: #2B3F8D;
+
+}
+.nav-bar ul{
+
+display: flex;
+padding: 10px;
+}
+.nav-bar li{
+
+
+}
+.nav-bar ul li a{
+    border-right: 1.8px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 10px;
+}

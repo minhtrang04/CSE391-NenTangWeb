@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký TOUR</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+        <h2 align="center" style="color:rgb(35, 109, 174);">
+                Đăng ký du lịch</h2>
+            <table style="background-color: beige;color:rgb(35, 109, 174);"width="430px" height="230px" 
+            align="center" cellpadding="5" border="1">
+             <tr>
+                <td>Họ và tên</td>
+                <td>
+                <input type="text" name="hoten" size="35" placeholder="Nhập họ và tên">
+            </td>
+            </tr>
+             <tr>
+                <td>Địa chỉ</td> 
+                <td>
+                <input type="text" name="diachi" size="30" placeholder="Nhập địa chỉ">
+             </td>
+            </tr>
+             <tr>
+                <td>Điện thoại</td>
+                <td>
+                <input type="text" name="sdt" size="11" placeholder="Nhập sdt">
+             </td>
+            </tr>
+             <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox" name="vn" id="khach"></td>
+             </tr>
+             <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select name="tour">
+                        <option value="tour1">Buôn Mê Thuột</option>
+                        <option value="tour2">Đà Nẵng</option>
+                        <option value="tour3">Vũng Tàu</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <label>
+                        <input type="radio" name="pt" id="mb">Máy bay
+                    </label>
+                    <label>
+                        <input type="radio" name="pt" id="ot">Xe ô tô
+                    </label>
+                </td>
+             </tr>
+             <tr>
+                <td colspan="2" align="center">Số lượng đoàn khách <br><br>
+                Người lớn<input type="text" name="nl" size="5">
+                Trẻ em<input type="text" name="te" size="5">
+                 </td>
+            </tr>
+             <tr>
+                <td>Ghi chú thêm</td>
+                <td>
+                    <textarea name="box"cols="30" rows="2"></textarea>
+                </td>
+             </tr>
+             <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="Reset"> &nbsp;&nbsp;
+                    <input type="submit" value="Đồng ý">
+                </td>
+             </tr>
+             <tr></tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>

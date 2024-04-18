@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Dung Satoru/DungSatou CSE391 main University/0_FileChung/FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="../Dung Satoru/DungSatou CSE391 main University/0_FileChung/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../Dung Satoru/DungSatou CSE391 main University/0_FileChung/CSS/Reset.css">
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        body {
+            background-color: #fff;
+        }
+     .wrapper{
+        width: 420px;
+        height: auto;
+        border: 1.2px solid #ccc;
+        box-shadow: 3px 3px 3px rgb(108, 108, 108);
+        margin: 8% auto;
+     }
+     #form{
+        background: rgb(200, 225, 247);
+     }
+     .form-heading{
+        color: rgb(23, 36, 90);
+        line-height: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     h3{
+        font-weight: bold;
+        font-size: 22px;
+     }
+     p{
+        font-size: 18px;
+     }
+     .form-group{
+        margin: 2% 0;
+     }
+     label{
+        color: rgb(23, 36, 90);
+        font-weight: 600;
+     }
+    </style>
+      <div class="wrapper">
+           <div class="container">
+            <div class="row">
+              <form action="" role="form" id="form" >
+                        <div class="form-heading">
+                            <h3>Sign Up</h3>
+                            <p>It's free and anyone can join</p>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="firstname">First Name</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="firstname" id="firstname">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="lastname">Last Name</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="lastname" id="lastname">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="email">Your Email</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="email" id="email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="password">New Password</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="password" name="password" id="password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="gender">I am</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <select name="gender" id="gender">
+                                        <option value="gender0">Select Sex</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="none">none</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="dob">Birthday</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <select name="month" id="month">
+                                        <option value="m0">Month</option>
+                                        <option value="m1">01</option>
+                                        <option value="m2">02</option>
+                                        <option value="m3">03</option>
+                                    </select>
+
+                                    <select name="day" id="day">
+                                        <option value="d0">Day</option>
+                                        <option value="d1">01</option>
+                                        <option value="d2">02</option>
+                                        <option value="d3">03</option>
+                                    </select>
+
+                                    <select name="year" id="year">
+                                        <option value="y0">Year</option>
+                                        <option value="y1">2001</option>
+                                        <option value="y2">2002</option>
+                                        <option value="y3">2003</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="submit" name="submit" id="signup" value="Sign Up" onclick="isValid()" class="btn btn-success">
+                                </div>
+                            </div>
+                        </div>
+                   </form> 
+            </div>
+           </div>
+      </div>
+      <script src="B2.js"></script>
+</body>
+</html>

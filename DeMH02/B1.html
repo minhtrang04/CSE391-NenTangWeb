@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../My File/FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="../My File/bootstrap.min.css">
+    <link rel="stylesheet" href="../My File/Reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e9e8e8;">
+    <div class="wrapper">
+        <div class="container">
+            <div class="task-menu">
+            <div class="row ">
+                <div class="heading d-flex col-md-12">
+                        <h3>Task list</h3>
+                        <button type="button" class="addtask">+ Add Task</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+            <div class="task-content">
+                <div class="container">
+                <div class="task-list">
+                    <div class="row">
+                        <div class="task-1 col-md-12 d-flex">
+                             <div class="col-md-4 d-flex content">
+                                  <div class="main-task d-flex">
+                                       <p class="prap1">Task</p>
+                                       <p class="prap2">Go to gym</p>
+                                  </div>
+
+                                  <div class="task-level d-flex">
+                                    <p class="prap1">Priority</p>
+                                    <p class="prap2" style="color: maroon;">High</p>
+                               </div>
+
+                             </div>
+
+                             <div class="col-md-3 process d-flex mt-2">
+                                <button class="status btn btn-secondary" style="font-size: 14px;"> To do </button>
+                             </div>
+ 
+                             <div class="col-md-2 circle mt-3 d-flex">
+                              <i class="fa-regular fa-circle" style="color: #d1cfcf;"></i>
+                             </div>
+
+                             <div class="col-md-3 mt-3 d-flex edit">
+                                <i class="fa-solid fa-pen-to-square pe-3 "></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                             </div>
+                        </div>
+
+                        <div class="task-1 col-md-12 d-flex my-3">
+                            <div class="col-md-4 d-flex content">
+                                 <div class="main-task d-flex">
+                                      <p class="prap1">Task</p>
+                                      <p class="prap2">Read a book</p>
+                                 </div>
+
+                                 <div class="task-level d-flex">
+                                   <p class="prap1">Priority</p>
+                                   <p class="prap2" style="color: rgb(87, 233, 87);">Low</p>
+                              </div>
+
+                            </div>
+
+                            <div class="col-md-3 process d-flex mt-2">
+                               <button class="status btn btn-secondary" style="font-size: 14px;"> Done </button>
+                            </div>
+
+                            <div class="col-md-2 circle mt-3 d-flex">
+                              <i class="fa-regular fa-circle" style="color: #cc95e5;"></i>
+                            </div>
+
+                            <div class="col-md-3 mt-3 d-flex edit">
+                               <i class="fa-solid fa-pen-to-square pe-3 "></i>
+                               <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                       </div>
+
+                       <div class="task-1 col-md-12 d-flex">
+                        <div class="col-md-4 d-flex content">
+                             <div class="main-task d-flex">
+                                  <p class="prap1">Task</p>
+                                  <p class="prap2">Go to Market</p>
+                             </div>
+
+                             <div class="task-level d-flex">
+                               <p class="prap1">Priority</p>
+                               <p class="prap2" style="color: rgb(247, 195, 92);">Medium</p>
+                          </div>
+
+                        </div>
+
+                        <div class="col-md-3 process d-flex mt-2">
+                           <button class="status btn btn-secondary" style="font-size: 14px;"> Inprogress </button>
+                        </div>
+
+                        <div class="col-md-2 circle mt-2 d-flex">
+                           <img src="./loding.png" alt="" style="height: 25px; align-items:center;">
+                        </div>
+
+                        <div class="col-md-3 mt-3 d-flex edit">
+                           <i class="fa-solid fa-pen-to-square pe-3 "></i>
+                           <i class="fa-solid fa-trash-can"></i>
+                        </div>
+                   </div>
+                   
+                    </div>
+                </div>
+               </div>
+            </div>
+            
+            <div class="form-task my-3 d-flex">
+               <div class="container"> 
+                      <div class="row">
+                        <div class="col-md-12 form-content">
+                           <form action="" role="form" id="form">
+                              <div class="form-heading d-flex my-3"> 
+                                 <h2>Add Task</h2>
+                                 <i class="fa-solid fa-xmark fs-4 text"></i>
+                              </div>
+                            
+                             <div class="form-group my-2">
+                              <label for="name" class="label">Task</label>
+                              <input type="text" name="task" id="nametask" class="col-md-6 my-2" placeholder="Type your task here" readonly>
+                             </div>
+
+                             <div class="form-group">
+                              <label for="chosen" class="label my-2">Priority</label>
+                              <div class="button-goup">
+                                 <button type="button" class="btn btn-outline-danger px-4">High</button>
+                                 <button type="button" class="btn btn-outline-warning">Medium</button>
+                                 <button type="button" class="btn btn-success px-4">Low</button>
+                             </div>
+                             </div>
+
+                             <div class="Submit my-3 d-flex">
+                              <button type="submit" id="submit" class="btn btn-secondary btn-sm" onclick="isValid()">Add</button>
+                             </div>
+                           </form>
+                        </div>
+                      </div>
+               </div>
+            </div>
+    </div>
+</body>
+</html>

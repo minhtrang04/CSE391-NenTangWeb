@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.html{
+    
+}
+.heading{
+    margin: 3% auto;
+    justify-content: space-between;
+}
+.heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.addtask{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(235, 228, 100);
+    color: rgb(0, 0, 0);
+  
+}
+.task-1{
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 28px;
+}
+.content{
+    margin: 0 2%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-task{
+    flex-direction: column;
+    line-height: 20px;
+}
+.task-level{
+    flex-direction: column;
+    line-height: 22px;
+}
+.prap1{
+    color: #c6c5c5;
+    
+}
+.prap2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.process{
+   justify-content: center;
+   height: 32px;
+}
+.circle{
+    justify-content: center;
+}
+.edit{
+    justify-content: center;
+}
+.form-heading{
+    justify-content: space-between;
+}
+.form-content{
+    justify-content: center;
+    height:auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+.label{
+    color: #b5b5b5;
+    font-size: 16px;
+    font-weight: bold;
+}
+#nametask{
+    border-radius: 16px;
+    border: 1px solid black;
+    height: 38px;
+}
+.Submit{ 
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#submit{
+    width: fit-content;
+    padding: 6px 22px;
+    border-radius: 10px;
+}

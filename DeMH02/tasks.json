@@ -1,0 +1,30 @@
+{
+    "tasks": [
+      {
+        "task": "Go to Gym",
+        "priority": "High",
+        "status": "To Do",
+      },
+      {
+        "task": "Read a Book",
+        "priority": "Low",
+        "status": "Done",
+      },
+      {
+        "task": "Go to Market",
+        "priority": "Medium",
+        "status": "In Progress",
+      },
+      {
+        "task": "Do Exercise",
+        "priority": "Medium",
+        "status": "Done",
+      },
+      {
+        "task": "Skincare",
+        "priority": "High",
+        "status": "Done",
+      },
+    ]
+  }
+  

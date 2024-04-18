@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Dung Satoru/DungSatou CSE391 main University/0_FileChung/CSS/bootstrap.min.css">
+</head>
+<body>
+    <p id="prap">Hiển thị sử dụng JS thông qua: <br>
+        - Alert <br>
+        - Document.write <br>
+        - getElementById() <br>
+      </p>
+      <form action="" id="form">
+        <table>
+          <tr>
+            <td>Họ tên</td>
+            <td><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" id="email" required></td> </tr>
+          <tr>
+            <td>Năm</td>
+            <td><input type="number" name="year" id="year" required></td> </tr>
+          <tr>
+            <td>Tháng</td>
+            <td><input type="number" name="month" id="month" min="1" max="12" required></td> </tr>
+          <tr>
+            <td><input type="submit" onclick="event.preventDefault();isValid()" value="Click me!" class="btn btn-primary"></td>
+            <p id="result"></p>
+          </tr>
+        </table>
+      </form>
+      
+    <!-- <div id="result"></div> -->
+
+        <script src="./js/B1.js"></script>
+</body>
+</html>

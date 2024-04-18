@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Dung Satoru/DungSatou CSE391 main University/0_FileChung/CSS/bootstrap.min.css">
+</head>
+<body>
+    <style>
+         .wrapper{
+           width: 70%;
+           height: auto;
+           box-shadow: 3px 3px 3px #c0c0c0;
+           border: 1.2px solid black ;
+           margin: 3% auto;
+      }
+      #form{
+       justify-content: center;
+      }
+        .form-group{
+            margin-bottom: 12px;
+        }
+        
+    </style>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+            <form action="" role="form" id="form" class="pt-3">
+                 <div class="form-heading mb-4">
+                    <h3>Login Form</h3>
+                 </div>
+                <div class="form-group row">
+                    <label for="fullname" class="col-md-4">Fullname</label>
+                    <div class="col-md-6">
+                        <input type="text" id="fullname" class="form-control" name="fullname" required autofocus>
+                        <span id="fullname_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="username" class="col-md-4">Username</label>
+                    <div class="col-md-6">
+                        <input type="text" id="username" class="form-control" name="username" required autofocus>
+                        <span id="name_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="phone" class="col-md-4">Phone-number</label>
+                    <div class="col-md-6">
+                        <input type="text" id="phone" class="form-control" name="phone" required autofocus>
+                        <span id="phone_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="email" class="col-md-4">Email</label>
+                    <div class="col-md-6">
+                        <input type="email" id="email" class="form-control" name="email" required autofocus>
+                        <span id="phone_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="password" class="col-md-4">Password</label>
+                    <div class="col-md-6">
+                        <input type="password" id="password" class="form-control" name="password" required autofocus>
+                        <span id="password_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="repassword" class="col-md-4">Re-Password</label>
+                    <div class="col-md-6">
+                        <input type="password" id="repassword" class="form-control" name="repassword" required autofocus>
+                        <span id="repass_error" style="color: red;font-size: 12px;"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="dob" class="col-md-4">D.O.B</label>
+                    <div class="col-md-6">
+                       <select name="day" id="day">
+                        <option value="day0">Day</option>
+                        <option name="day1">01</option>
+                        <option name="day2">02</option>
+                        <option name="day3">03</option>
+                        <option name="day4">04</option>
+                        <option name="day5">05</option>
+                       </select>
+
+                       <select name="month" id="month">
+                        <option value="month0">Month</option>
+                        <option name="month1">01</option>
+                        <option name="month2">02</option>
+                        <option name="month3">03</option>
+                        <option name="month4">04</option>
+                        <option name="month5">05</option>
+                       </select>
+
+                       <select name="year" id="year">
+                        <option value="year0">Year</option>
+                        <option name="year1">2001</option>
+                        <option name="year2">2002</option>
+                        <option name="year3">2003</option>
+                        <option name="year4">2004</option>
+                        <option name="year5">2005</option>
+                       </select>
+                    </div>
+                </div>
+                 
+                <div class="form-group row">
+                    <label for="gender" class="col-md-4">Gender</label>
+                    <div class="col-md-6">
+                        <input type="radio" id="male" value="male" name="gender"> Male
+                        <input type="radio" id="female" value="female" name="gender"> Female
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="hobby" class="col-md-4">Hobbies</label>
+                    <div class="col-md-6">
+                        <input type="checkbox" id="hobby1"  name="Film" required autofocus> Film
+                        <input type="checkbox" id="hobby2" name="Web" required autofocus> Web
+                        <input type="checkbox" id="hobby3"  name="Baking" required autofocus> Baking
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="address" class="col-md-4">Address</label>
+                    <div class="col-md-6">
+                        <textarea name="address" id="address" cols="10" rows="3" class="form-control" required autofocus></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row justify-content-center">   
+                <input type="submit" id="submit" class="form-control mb-3 btn btn-primary" value="Submit" onclick="event.preventDefault();isValid()" required autofocus>
+                <input type="reset" id="reset" class="form-control btn btn-primary" value="Reset" required autofocus>    
+                </div>
+            </form>
+            <p id="result"></p>
+        </div>
+        </div>
+       </div>
+    </div>
+    <script src="./js/B3.js"></script>
+</body>
+</html>
