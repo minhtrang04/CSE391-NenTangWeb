@@ -1,0 +1,271 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    padding-left: 0rem;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    margin:  0px 0px;
+    padding: 0px 0px;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    max-width: 960px;
+    margin: 0px auto;
+    height: auto;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.banner{
+    width: 100%;
+	height: auto;
+    margin: 4px auto;
+}
+.logo-img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+.menu-bar{
+    /* height: auto; */
+    background-color: #ffd400;
+    width: 100%;
+	height: 47px;
+    margin: 3px auto;
+}
+.list-menu{
+    display: flex;
+    /* justify-content: space-between;   */
+}
+.list-menu li{
+    display: inline-block;
+	text-align: center; 
+    margin: 5px 38px;
+}
+.list-menu li a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);  
+ text-align: center;
+ font-size: 15px;
+}
+.list-menu li:hover{
+    background-color: #918d8d;
+}
+.slide{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    max-height: 390px;
+} 
+.side-bar{
+    display: flex;
+    flex-basis: 46%;
+}
+.side-1{
+    
+    flex-basis: 50%;
+    padding-left: 0rem;
+    
+}
+ .side-1 li{
+    border: 2px solid #cbcaca;
+    width: 100%;
+    /* display: block; */
+    float: left;
+    padding: 16px 0;   
+    margin: 4px 0;
+    height: 123px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+.side-1 li a{
+    text-align: start;
+    text-decoration: none;
+    font-size: 15px;
+    color: black; 
+    width: 45%;
+    /* position: relative;
+    top: 60px; */
+} 
+.side-2{
+    flex-basis: 50%;
+    padding: 0 2px;
+}
+.side-2 li{
+    border: 2px solid #cbcaca;
+    width: 100%;
+    height: 123px;
+    display: block;
+    float: left;
+    padding: 16px 0;
+    margin: 4px 0;
+    text-align: center;
+}
+
+.side-2 li a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 20px;
+} 
+.side-img{
+    float: left;
+    width: 30%;
+}
+.slide-img {
+    flex-basis: 55%;  
+}
+.slide-img img{
+    width: 100%; 
+    height: 390px;
+}
+.list-item{
+    width: 100%;
+    padding: 3px 0;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+	height: 45px;
+    background-color: #ffd400;
+    margin: 3px auto;
+    padding: 0 3px;
+    width: 100%;
+}
+.section-heading{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font: weight 600px;
+    line-height: 45px;
+    margin: 0 12px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.phone-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.phone-item{
+    border: 2px solid #cbcaca;
+    /* display: flex;
+    justify-content: center; */
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 7px 22px;
+    /* padding-right: 8px; */
+    text-align: center;
+    
+}
+.phone-img{
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    align-self: center;
+}
+.phone-body{
+    width: 100%;
+}
+.phone-name{
+    margin-bottom: 0rem;
+}
+.phone-heading{
+    width: 100;
+    padding: 4px 0 ;
+    background-color: rgba(196, 136, 16, 0.6);
+    margin-bottom: 0rem;
+}
+.phone-price{
+    color: red;
+    margin-bottom: 0rem;
+}
+.footer{
+    width: 100%;
+   
+}
+.address{ 
+    
+    padding: 5px 3px;
+}
+.address-list{
+    width: 100%;
+    display: flex;
+   float: left;
+   border: 2px solid #cbcaca;
+   height: 215px;
+}
+.address-item{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 7px 6px;
+    /* padding-right: 8px; */
+    text-align: center;
+}
+.address-top{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid #423f3f;
+    margin-bottom: 0rem;
+    padding: 5px 0;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.address-heading{
+    background-color: #ffd400;
+    padding: 2px 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.address-item{
+    width: 33%;
+    height: 150px;
+}
